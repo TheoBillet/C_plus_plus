@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
             loop++;
         }
 
-        if (prime == 1)
+        if (prime == 1 && number != 1)
             std::cout << number << " is a prime: True\n";
         else
             std::cout << number << " is a prime: False\n";

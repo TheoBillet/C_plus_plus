@@ -1,4 +1,5 @@
 Makefile
-CM*
+*/CMakeFiles
+CMakeCache.txt
 .vscode
 cmake*
