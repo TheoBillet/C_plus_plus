@@ -3,3 +3,4 @@ Makefile
 CMakeCache.txt
 .vscode
 cmake*
+*.pdf
