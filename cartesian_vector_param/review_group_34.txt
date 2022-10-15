@@ -1,0 +1,7 @@
+Pour la review de code du groupe 34:
+Le code est bon et passe tout les tests même si je trouve que le placement des fonctions dans le fichier vector.hh n'est pas correct.
+Notamment les 3 dernières lignes :
+Vector operator*(const Vector& rhs, value lambda);
+Vector operator+=(Vector& rhs, value lambda);
+Vector operator*=(Vector& rhs, value lambda);
+Qui devrait se trouver à la ligne 26 dans la section : // Public Member functions here
